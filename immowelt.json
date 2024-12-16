@@ -1,0 +1,762 @@
+[
+    {
+        "Cost": "1782 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "62 m2",
+        "Url ": "https://www.immowelt.de/expose/13ec9223-00b1-4e53-83e5-87fd68e9c9bc"
+    },
+    {
+        "Cost": "2400 €",
+        "Location": "Breite Straße, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "City-Wohnen",
+        "Rooms": "2 Zimmer",
+        "Metres": "66 m2",
+        "Url ": "https://www.immowelt.de/expose/131fdc35-3654-478e-aedd-34324d57de4c"
+    },
+    {
+        "Cost": null,
+        "Location": "Glücksburger Straße, Altona - Nord, Hamburg (22769)",
+        "Provider": "von privat",
+        "Rooms": "3 Zimmer",
+        "Metres": "74 m2",
+        "Url ": "https://www.immowelt.de/expose/11353a2a-250b-4b2a-a8e6-0ddf0d8fc236"
+    },
+    {
+        "Cost": "1345 €",
+        "Location": "Elligersweg 2, Barmbek - Nord, Hamburg (22307)",
+        "Provider": "IFI Falkenried Immobilien Verwaltungs GmbH",
+        "Rooms": "3 Zimmer",
+        "Metres": "84 m2",
+        "Url ": "https://www.immowelt.de/expose/e980f3c6-ed05-4d9a-95ac-54125990a864"
+    },
+    {
+        "Cost": "1541 €",
+        "Location": "Fuhlsbüttler Straße 468, Barmbek - Nord, Hamburg (22309)",
+        "Provider": "Braun Immobilienkontor",
+        "Rooms": "3 Zimmer",
+        "Metres": "87,9 m2",
+        "Url ": "https://www.immowelt.de/expose/7a43b9a0-4e95-436a-94fa-3deb89b40f4a"
+    },
+    {
+        "Cost": "1255 €",
+        "Location": "Fuhlsbüttler Straße 468, Barmbek - Nord, Hamburg (22309)",
+        "Provider": "Braun Immobilienkontor",
+        "Rooms": "2 Zimmer",
+        "Metres": "74 m2",
+        "Url ": "https://www.immowelt.de/expose/91778479-d7b4-4617-8bf0-ba1a21bc2c3c"
+    },
+    {
+        "Cost": "1312.5 €",
+        "Location": "Holstenstraße 194c, Altona - Nord, Hamburg (22765)",
+        "Provider": "Möhring Immobilien GmbH & Co. KG",
+        "Rooms": "1,5 Zimmer",
+        "Metres": "75 m2",
+        "Url ": "https://www.immowelt.de/expose/215b136e-e17c-486c-8fa6-6b671c58c620"
+    },
+    {
+        "Cost": "899 €",
+        "Location": "Hebebrandstr. 2, Barmbek - Nord, Hamburg (22297)",
+        "Provider": "ZBVV - Zentral Boden Vermietung und Verwaltung GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "37,4 m2",
+        "Url ": "https://www.immowelt.de/expose/bd2c35dc-4427-4a71-9b27-38f37888224c"
+    },
+    {
+        "Cost": "1283 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1,5 Zimmer",
+        "Metres": "44 m2",
+        "Url ": "https://www.immowelt.de/expose/001ee147-98ea-43c7-9e8f-946c24a57c61"
+    },
+    {
+        "Cost": "1208 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "33 m2",
+        "Url ": "https://www.immowelt.de/expose/a4938819-bc91-493f-af04-244aa2997523"
+    },
+    {
+        "Cost": "1288 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "33 m2",
+        "Url ": "https://www.immowelt.de/expose/c41f2be4-88a4-4b9d-86d5-0eabce4204ef"
+    },
+    {
+        "Cost": "1208 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "33 m2",
+        "Url ": "https://www.immowelt.de/expose/45a151ba-11c3-4d3b-a1ff-a1eb19199d1c"
+    },
+    {
+        "Cost": "1208 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "33 m2",
+        "Url ": "https://www.immowelt.de/expose/5e852032-6001-4af1-a8a1-97af3744c5a3"
+    },
+    {
+        "Cost": "350 €",
+        "Location": "Heubergredder 18, Alsterdorf, Hamburg (22297)",
+        "Provider": "von privat",
+        "Rooms": "12 m²",
+        "Metres": "3. Geschoss",
+        "Url ": "https://www.immowelt.de/expose/45212fd7-559e-4b1c-96a9-018df618f6f1"
+    },
+    {
+        "Cost": "1980 €",
+        "Location": "Alsterdorfer Strasse 333, Alsterdorf, Hamburg (22297)",
+        "Provider": "von privat",
+        "Rooms": "4 Zimmer",
+        "Metres": "101 m2",
+        "Url ": "https://www.immowelt.de/expose/68d99dba-ca3e-44c5-b10d-9cec4c95008e"
+    },
+    {
+        "Cost": "750 €",
+        "Location": "Schwalbenplatz 3, Barmbek - Nord, Hamburg (22307)",
+        "Provider": "ohne-makler.net - Immobilien selbst vermarkten",
+        "Rooms": "1 Zimmer",
+        "Metres": "40 m2",
+        "Url ": "https://www.immowelt.de/expose/b75d20dd-be1d-44a0-b4e3-a72049770b9e"
+    },
+    {
+        "Cost": "1445 €",
+        "Location": "Langenfelder Straße 4, Altona - Nord, Hamburg (22769)",
+        "Provider": "KvB Immobilien GmbH ",
+        "Rooms": "2 Zimmer",
+        "Metres": "53,5 m2",
+        "Url ": "https://www.immowelt.de/expose/fb0c9a0a-6aff-4a07-99a1-1bb5859cf142"
+    },
+    {
+        "Cost": "1400 €",
+        "Location": "Palmaille 35, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "von privat",
+        "Rooms": "2 Zimmer",
+        "Metres": "67 m2",
+        "Url ": "https://www.immowelt.de/expose/be3a0835-cc2b-478f-afd3-0649703e6dd7"
+    },
+    {
+        "Cost": "670 €",
+        "Location": "Langenfelder Str. 41, Altona - Nord, Hamburg (22769)",
+        "Provider": "Wentzel Dr. Vertriebs GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "54 m2",
+        "Url ": "https://www.immowelt.de/expose/709a403c-33c3-4a3f-a351-0e71813a069b"
+    },
+    {
+        "Cost": "1288 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "33 m2",
+        "Url ": "https://www.immowelt.de/expose/14271b32-e355-452d-9183-cbd08554f258"
+    },
+    {
+        "Cost": "1288 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "33 m2",
+        "Url ": "https://www.immowelt.de/expose/a57342a4-09ff-4e99-a293-3326552c8a47"
+    },
+    {
+        "Cost": "1303 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "44 m2",
+        "Url ": "https://www.immowelt.de/expose/0393d172-9a81-4e84-92e5-f7d02b514082"
+    },
+    {
+        "Cost": "641 €",
+        "Location": "Habichtsweg 3, Barmbek - Nord, Hamburg (22307)",
+        "Provider": "EB IMMOBILIENMANAGEMENT GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "87 m2",
+        "Url ": "https://www.immowelt.de/expose/44d39250-378a-484b-80d0-04c611954c54"
+    },
+    {
+        "Cost": "1900 €",
+        "Location": "Carl-Cohn Str, Alsterdorf, Hamburg (22297)",
+        "Provider": "HOMELIKE INTERNET GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "60 m2",
+        "Url ": "https://www.immowelt.de/expose/2e9c76cb-84c2-4192-8dad-b9a40a5d4d70"
+    },
+    {
+        "Cost": "2200 €",
+        "Location": "Missundestraße, Altona - Nord, Hamburg (22769)",
+        "Provider": "HOMELIKE INTERNET GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "70 m2",
+        "Url ": "https://www.immowelt.de/expose/d5e18ebb-0c79-4421-97e9-f9fceacfd72a"
+    },
+    {
+        "Cost": "1500 €",
+        "Location": "Oelkersallee, Altona - Nord, Hamburg (22769)",
+        "Provider": "HOMELIKE INTERNET GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "60 m2",
+        "Url ": "https://www.immowelt.de/expose/7ad85ef9-a706-4968-900e-d2e39e3b03be"
+    },
+    {
+        "Cost": "2700 €",
+        "Location": "Palmaille, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "HOMELIKE INTERNET GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "52 m2",
+        "Url ": "https://www.immowelt.de/expose/c8f76adc-af4f-4551-bfc6-abb7f613b14a"
+    },
+    {
+        "Cost": "1283 €",
+        "Location": "Oeverseestraße 7, Altona - Nord, Hamburg (22769)",
+        "Provider": "International Campus GmbH",
+        "Rooms": "1,5 Zimmer",
+        "Metres": "44 m2",
+        "Url ": "https://www.immowelt.de/expose/1f18f243-f7db-4d5d-800f-7bb56b764492"
+    },
+    {
+        "Cost": "1950 €",
+        "Location": "Orchideenstieg, Alsterdorf, Hamburg (22297)",
+        "Provider": "City-Wohnen",
+        "Rooms": "3 Zimmer",
+        "Metres": "80 m2",
+        "Url ": "https://www.immowelt.de/expose/8739c891-adf4-4b19-9e5f-85685e20119b"
+    },
+    {
+        "Cost": "2248 €",
+        "Location": "Hospitalstraße, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "City-Wohnen",
+        "Rooms": "2 Zimmer",
+        "Metres": "65 m2",
+        "Url ": "https://www.immowelt.de/expose/439aba9b-2485-492d-aae0-636e0b334f0c"
+    },
+    {
+        "Cost": "1800 €",
+        "Location": "Schwalbenstraße, Barmbek - Nord, Hamburg (22305)",
+        "Provider": "City-Wohnen",
+        "Rooms": "3 Zimmer",
+        "Metres": "67 m2",
+        "Url ": "https://www.immowelt.de/expose/0c981cc9-2c09-4804-a7f5-348caf69e9a4"
+    },
+    {
+        "Cost": "1450 €",
+        "Location": "Isebekstraße, Altona - Nord, Hamburg (22769)",
+        "Provider": "City-Wohnen",
+        "Rooms": "1 Zimmer",
+        "Metres": "36 m2",
+        "Url ": "https://www.immowelt.de/expose/b9c5c653-83e7-48fb-af95-eebd5a1a93ca"
+    },
+    {
+        "Cost": "3750 €",
+        "Location": "Thadenstraße, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "City-Wohnen",
+        "Rooms": "4 Zimmer",
+        "Metres": "140 m2",
+        "Url ": "https://www.immowelt.de/expose/d0ce8fc2-247d-4116-8d51-17422a6b6e92"
+    },
+    {
+        "Cost": "600 €",
+        "Location": "Alsterdorfer Straße 335, Alsterdorf, Hamburg (22297)",
+        "Provider": "ohne-makler.net - Immobilien selbst vermarkten",
+        "Rooms": "1 Zimmer",
+        "Metres": "27,4 m2",
+        "Url ": "https://www.immowelt.de/expose/4836a011-d571-460f-8eb0-f17b16a595a2"
+    },
+    {
+        "Cost": "2600 €",
+        "Location": "Blücherstraße, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "City-Wohnen",
+        "Rooms": "3 Zimmer",
+        "Metres": "85 m2",
+        "Url ": "https://www.immowelt.de/expose/f555523f-43de-42d4-b9ba-7966a4f86f1b"
+    },
+    {
+        "Cost": "2200 €",
+        "Location": "Stresemannstraße, Altona - Nord, Hamburg (22769)",
+        "Provider": "City-Wohnen",
+        "Rooms": "3 Zimmer",
+        "Metres": "107 m2",
+        "Url ": "https://www.immowelt.de/expose/4bde72b6-e22e-483d-8e68-2b06336e65a3"
+    },
+    {
+        "Cost": "1500 €",
+        "Location": "Langenfelder Straße, Altona - Nord, Hamburg (22769)",
+        "Provider": "City-Wohnen",
+        "Rooms": "2 Zimmer",
+        "Metres": "50 m2",
+        "Url ": "https://www.immowelt.de/expose/f9edb557-7609-4e05-9869-f4dce655163d"
+    },
+    {
+        "Cost": "2675 €",
+        "Location": "Maienweg, Alsterdorf, Hamburg (22297)",
+        "Provider": "HOMELIKE INTERNET GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "52 m2",
+        "Url ": "https://www.immowelt.de/expose/47bf4dcd-92ee-494e-acd0-f15ed08f570b"
+    },
+    {
+        "Cost": "1300 €",
+        "Location": "Hospitalstraße, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "von privat",
+        "Rooms": "50 m²",
+        "Metres": "frei ab 01.01.2025",
+        "Url ": "https://www.immowelt.de/expose/349fd986-aabe-4d9f-95ac-7df53b5f0f1a"
+    },
+    {
+        "Cost": "1150 €",
+        "Location": "Altona - Altstadt, Hamburg (22767)",
+        "Provider": "Engel & Völkers Immobilien Deutschland GmbH ",
+        "Rooms": "2 Zimmer",
+        "Metres": "44 m2",
+        "Url ": "https://www.immowelt.de/expose/185bb33a-0d5b-437b-be9f-4b8d45110561"
+    },
+    {
+        "Cost": "3100 €",
+        "Location": "Barmbek - Nord, Hamburg-Barmbek (22307)",
+        "Provider": "Rathjens & Mandellas Immobilien GmbH",
+        "Rooms": "3 Zimmer",
+        "Metres": "144,4 m2",
+        "Url ": "https://www.immowelt.de/expose/0363535e-7d69-4c27-bbfa-172fd0f80cc5"
+    },
+    {
+        "Cost": "950 €",
+        "Location": "Altona - Altstadt, Hamburg-Altona-Nord (22765)",
+        "Provider": "Rathjens & Mandellas Immobilien GmbH",
+        "Rooms": "1 Zimmer",
+        "Metres": "33 m2",
+        "Url ": "https://www.immowelt.de/expose/88c7aaa2-4b03-4015-9425-af6801015fdb"
+    },
+    {
+        "Cost": "592 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,6 m2",
+        "Url ": "https://www.immowelt.de/expose/a3587060-41fd-4a6e-9899-a52690611d9a"
+    },
+    {
+        "Cost": "634 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "31,7 m2",
+        "Url ": "https://www.immowelt.de/expose/bc052f94-c780-41ec-9887-b5872b1d2104"
+    },
+    {
+        "Cost": "636 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "31,8 m2",
+        "Url ": "https://www.immowelt.de/expose/56246afa-3609-418e-afa0-821fe4a65ec7"
+    },
+    {
+        "Cost": "950 €",
+        "Location": "Barmbek - Nord, Hamburg (22305)",
+        "Provider": "ohne-makler.net - Immobilien selbst vermarkten",
+        "Rooms": "2 Zimmer",
+        "Metres": "51 m2",
+        "Url ": "https://www.immowelt.de/expose/5eae3484-e82b-40bd-9c85-0f362651e3f8"
+    },
+    {
+        "Cost": "850 €",
+        "Location": "Rathenaustraße 232, Alsterdorf, Hamburg (22337)",
+        "Provider": "EB IMMOBILIENMANAGEMENT GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "52,1 m2",
+        "Url ": "https://www.immowelt.de/expose/932ac972-8f9f-4631-8ddf-2e99ec0b7162"
+    },
+    {
+        "Cost": "1250 €",
+        "Location": "Bramfelder Chaussee 67, Barmbek - Nord, Hamburg / Bramfeld (22177)",
+        "Provider": "Brandt Immobilien",
+        "Rooms": "2 Zimmer",
+        "Metres": "63 m2",
+        "Url ": "https://www.immowelt.de/expose/156c605d-6003-486b-9fdb-33166871bf44"
+    },
+    {
+        "Cost": "1081 €",
+        "Location": "Tischbeinstraße 8, Barmbek - Nord, Hamburg (22307)",
+        "Provider": "ohne-makler.net - Immobilien selbst vermarkten",
+        "Rooms": "3 Zimmer",
+        "Metres": "70 m2",
+        "Url ": "https://www.immowelt.de/expose/0ac4f5d3-adb4-4e10-983c-9e229c80e020"
+    },
+    {
+        "Cost": "748.39 €",
+        "Location": "Oldachstr. 31, Barmbek - Nord, Hamburg (22307)",
+        "Provider": "Wentzel Dr. Vertriebs GmbH",
+        "Rooms": "3 Zimmer",
+        "Metres": "68,8 m2",
+        "Url ": "https://www.immowelt.de/expose/877c4caf-f4d6-4e0d-b721-647bfa84b5f6"
+    },
+    {
+        "Cost": "998 €",
+        "Location": "Altona - Altstadt, Hamburg (22767)",
+        "Provider": "von privat",
+        "Rooms": "3,5 Zimmer",
+        "Metres": "53 m2",
+        "Url ": "https://www.immowelt.de/expose/0f6b6504-eaaf-456e-a3b3-a66eb8f93525"
+    },
+    {
+        "Cost": "1390 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "E + V Hamburg Immobilien GmbH",
+        "Rooms": "3 Zimmer",
+        "Metres": "85 m2",
+        "Url ": "https://www.immowelt.de/expose/21a47201-9588-447a-a547-10703460d706"
+    },
+    {
+        "Cost": "1200 €",
+        "Location": "Barmbek - Nord, Hamburg (22309)",
+        "Provider": "von privat",
+        "Rooms": "3 Zimmer",
+        "Metres": "64 m2",
+        "Url ": "https://www.immowelt.de/expose/eba7df39-68ff-4180-9692-d7150a80bedf"
+    },
+    {
+        "Cost": "720 €",
+        "Location": "Altona - Altstadt, Hamburg (20359)",
+        "Provider": "Tauschwohnung GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "48 m2",
+        "Url ": "https://www.immowelt.de/expose/0a5cef1c-e8b2-4e00-9b6d-9d87e1a50f7a"
+    },
+    {
+        "Cost": "855 €",
+        "Location": "Barmbek - Nord, Hamburg (22307)",
+        "Provider": "Tauschwohnung GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "55 m2",
+        "Url ": "https://www.immowelt.de/expose/ef8fc17b-b55f-4e61-991c-118f1f164882"
+    },
+    {
+        "Cost": "1450 €",
+        "Location": "Altona - Altstadt, Hamburg (22767)",
+        "Provider": "Tauschwohnung GmbH",
+        "Rooms": "4,5 Zimmer",
+        "Metres": "116 m2",
+        "Url ": "https://www.immowelt.de/expose/a2c970a6-7fcc-41b6-8cbe-dba88aba429a"
+    },
+    {
+        "Cost": "1000 €",
+        "Location": "Altona - Nord, Hamburg (22769)",
+        "Provider": "ohne-makler.net - Immobilien selbst vermarkten",
+        "Rooms": "2,5 Zimmer",
+        "Metres": "50 m2",
+        "Url ": "https://www.immowelt.de/expose/e7d18ac5-d697-4b20-ba53-f77ac6471c4f"
+    },
+    {
+        "Cost": "520 €",
+        "Location": "Altona - Altstadt, Hamburg (20359)",
+        "Provider": "Tauschwohnung GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "55 m2",
+        "Url ": "https://www.immowelt.de/expose/f1322055-6f22-46f6-9d6b-e94866edd904"
+    },
+    {
+        "Cost": "1929 €",
+        "Location": "Altona - Nord, Hamburg (20257)",
+        "Provider": "Tauschwohnung GmbH",
+        "Rooms": "3 Zimmer",
+        "Metres": "109 m2",
+        "Url ": "https://www.immowelt.de/expose/b92c2a88-6f28-4ee8-aa03-4de63ed5e9c4"
+    },
+    {
+        "Cost": "700 €",
+        "Location": "Altona - Nord, Hamburg (22769)",
+        "Provider": "Tauschwohnung GmbH",
+        "Rooms": "3 Zimmer",
+        "Metres": "75 m2",
+        "Url ": "https://www.immowelt.de/expose/6b2617b5-9c51-47d8-96f8-f5083dce99bb"
+    },
+    {
+        "Cost": "1190 €",
+        "Location": "Altona - Altstadt, Hamburg (22767)",
+        "Provider": "Globalflats UG",
+        "Rooms": "1 Zimmer",
+        "Metres": "23 m2",
+        "Url ": "https://www.immowelt.de/expose/61bb0354-5a95-47b7-950c-37c12985822d"
+    },
+    {
+        "Cost": "1060 €",
+        "Location": "Altona - Nord, Hamburg (22765)",
+        "Provider": "Tauschwohnung GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "66 m2",
+        "Url ": "https://www.immowelt.de/expose/f4b809fc-b0b7-4fba-8f40-4e3ade4c6ff2"
+    },
+    {
+        "Cost": "2000 €",
+        "Location": "Altona - Altstadt, Hamburg (22765)",
+        "Provider": "von privat",
+        "Rooms": "2 Zimmer",
+        "Metres": "90 m2",
+        "Url ": "https://www.immowelt.de/expose/2e2a6d77-0fd8-4b47-9d96-a05e7bbedfd2"
+    },
+    {
+        "Cost": "890 €",
+        "Location": "Oertzweg 22, Barmbek - Nord, Hamburg (22307)",
+        "Provider": "von privat",
+        "Rooms": "2 Zimmer",
+        "Metres": "56 m2",
+        "Url ": "https://www.immowelt.de/expose/387ac55e-c6f2-4c84-90e5-ff1f98e205c8"
+    },
+    {
+        "Cost": "2390 €",
+        "Location": "Alte Wöhr, Barmbek - Nord, Hamburg (22307)",
+        "Provider": "HOMELIKE INTERNET GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "65 m2",
+        "Url ": "https://www.immowelt.de/expose/3e2a9143-036d-435e-af94-ad428602e325"
+    },
+    {
+        "Cost": "1449 €",
+        "Location": "Barmbek - Nord, Hamburg (22305)",
+        "Provider": "Engel & Völkers Hamburg Südost Immobilien GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "53 m2",
+        "Url ": "https://www.immowelt.de/expose/461cda16-5fa4-44ed-8417-249c562728eb"
+    },
+    {
+        "Cost": "1930 €",
+        "Location": "Barmbek - Nord, Hamburg (22305)",
+        "Provider": "Engel & Völkers Hamburg Südost Immobilien GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "89 m2",
+        "Url ": "https://www.immowelt.de/expose/5443dd9b-46fe-4f97-bec0-e2dbb4445d71"
+    },
+    {
+        "Cost": "1489 €",
+        "Location": "Barmbek - Nord, Hamburg (22305)",
+        "Provider": "Engel & Völkers Hamburg Südost Immobilien GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "56,5 m2",
+        "Url ": "https://www.immowelt.de/expose/c004cea1-5577-4c16-bf68-7fb8d7c69f2b"
+    },
+    {
+        "Cost": "1950 €",
+        "Location": "Missundestraße, Altona - Nord, Hamburg (22769)",
+        "Provider": "City-Wohnen",
+        "Rooms": "2 Zimmer",
+        "Metres": "70 m2",
+        "Url ": "https://www.immowelt.de/expose/59077a67-58ab-4eef-a8df-bd571ed9dcd0"
+    },
+    {
+        "Cost": "2480 €",
+        "Location": "Kirschenstieg 10, Alsterdorf, Hamburg (22297)",
+        "Provider": "von privat",
+        "Rooms": "3 Zimmer",
+        "Metres": "100 m2",
+        "Url ": "https://www.immowelt.de/expose/7b37dea8-c13a-409b-a179-83d9a4773958"
+    },
+    {
+        "Cost": "592 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,6 m2",
+        "Url ": "https://www.immowelt.de/expose/2f63c3ab-1a30-4e93-86be-e88c783c2051"
+    },
+    {
+        "Cost": "594 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,7 m2",
+        "Url ": "https://www.immowelt.de/expose/6e3d00e0-5a7b-4fdc-8939-5234275e31fc"
+    },
+    {
+        "Cost": "592 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,6 m2",
+        "Url ": "https://www.immowelt.de/expose/6e4849e8-0054-499a-98d2-0d3f1f534b5d"
+    },
+    {
+        "Cost": "536 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "26,8 m2",
+        "Url ": "https://www.immowelt.de/expose/4beccf21-bd23-4dc7-a11f-cb4318acde93"
+    },
+    {
+        "Cost": "610 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "30,5 m2",
+        "Url ": "https://www.immowelt.de/expose/24474fa0-6d42-4607-bc8a-5125cef9560a"
+    },
+    {
+        "Cost": "592 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,6 m2",
+        "Url ": "https://www.immowelt.de/expose/9a16c280-4a4f-4c85-8ce6-82a0eab436d0"
+    },
+    {
+        "Cost": "592 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,6 m2",
+        "Url ": "https://www.immowelt.de/expose/e7a459b3-d923-496d-bd62-46fec034e956"
+    },
+    {
+        "Cost": "540 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "27 m2",
+        "Url ": "https://www.immowelt.de/expose/9c3ef615-e07a-4b48-98b9-dfa60f180ce0"
+    },
+    {
+        "Cost": "642 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "32,1 m2",
+        "Url ": "https://www.immowelt.de/expose/30623de6-8e9e-481c-b3a6-7348ae9cc07c"
+    },
+    {
+        "Cost": "686 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "34,3 m2",
+        "Url ": "https://www.immowelt.de/expose/cbb09e00-86b8-4ad0-a1da-de1297e121a8"
+    },
+    {
+        "Cost": "542 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "27,1 m2",
+        "Url ": "https://www.immowelt.de/expose/90aab19e-7aff-41cf-860b-6ac384169dd6"
+    },
+    {
+        "Cost": "592 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,6 m2",
+        "Url ": "https://www.immowelt.de/expose/df929d31-70af-403d-a866-194eb8c97678"
+    },
+    {
+        "Cost": "592 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,6 m2",
+        "Url ": "https://www.immowelt.de/expose/450e81b5-a07f-486d-b8b3-9c7aa6230667"
+    },
+    {
+        "Cost": "536 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "26,8 m2",
+        "Url ": "https://www.immowelt.de/expose/99cc051a-1e16-49b3-87ec-7a704c9823f2"
+    },
+    {
+        "Cost": "582 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,1 m2",
+        "Url ": "https://www.immowelt.de/expose/12b57272-b1da-411f-bcd6-3f7a7c94c118"
+    },
+    {
+        "Cost": "958 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "2 Zimmer",
+        "Metres": "50,4 m2",
+        "Url ": "https://www.immowelt.de/expose/c516248d-fc1a-4e9f-bbf5-4e6339f598a3"
+    },
+    {
+        "Cost": "2359 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "4 Zimmer",
+        "Metres": "127,5 m2",
+        "Url ": "https://www.immowelt.de/expose/bb9841a5-4081-4b56-a179-319c72065099"
+    },
+    {
+        "Cost": "895 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "2 Zimmer",
+        "Metres": "47,1 m2",
+        "Url ": "https://www.immowelt.de/expose/9d66f0ef-fc50-4b38-9c32-c4f72854e612"
+    },
+    {
+        "Cost": "2500 €",
+        "Location": "Breite Straße, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "HOMELIKE INTERNET GmbH",
+        "Rooms": "2 Zimmer",
+        "Metres": "66 m2",
+        "Url ": "https://www.immowelt.de/expose/acb3182c-0057-40a8-a7a2-a54b5c48df3d"
+    },
+    {
+        "Cost": "3400 €",
+        "Location": "Palmaille, Altona - Altstadt, Hamburg (22767)",
+        "Provider": "HOMELIKE INTERNET GmbH",
+        "Rooms": "3 Zimmer",
+        "Metres": "70 m2",
+        "Url ": "https://www.immowelt.de/expose/5892f914-aaab-4da9-b91a-b65e9ca850f8"
+    },
+    {
+        "Cost": "582 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,1 m2",
+        "Url ": "https://www.immowelt.de/expose/8a61c325-d262-437d-9b05-6c39367ac1ad"
+    },
+    {
+        "Cost": "1995 €",
+        "Location": "Max-Brauer-Allee, Altona - Altstadt, Hamburg (22769)",
+        "Provider": "City-Wohnen",
+        "Rooms": "2 Zimmer",
+        "Metres": "81 m2",
+        "Url ": "https://www.immowelt.de/expose/8aeea1b5-f314-4b94-9188-a4957e79f5d0"
+    },
+    {
+        "Cost": "3600 €",
+        "Location": "Brabandstrasse 83, Alsterdorf, Hamburg (22297)",
+        "Provider": "von privat",
+        "Rooms": "3 Zimmer",
+        "Metres": "180 m2",
+        "Url ": "https://www.immowelt.de/expose/69a557af-4693-4a58-a7d9-56559bf7dedc"
+    },
+    {
+        "Cost": "592 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "1 Zimmer",
+        "Metres": "29,6 m2",
+        "Url ": "https://www.immowelt.de/expose/4de13de5-ce57-4599-bde7-7939faf24a74"
+    },
+    {
+        "Cost": "895 €",
+        "Location": "Alsterdorf, Hamburg (22297)",
+        "Provider": "Wullkopf&Eckelmann Immobilien GmbH & Co. KG",
+        "Rooms": "2 Zimmer",
+        "Metres": "47,1 m2",
+        "Url ": "https://www.immowelt.de/expose/3e06d542-0054-45d4-b4fb-b63b0958fb61"
+    }
+]
