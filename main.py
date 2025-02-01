@@ -1,47 +1,29 @@
 import requests
 import pandas as pd
-import matplotlib.pyplot as plt
 import time
-import json
-import csv
-import os
+from datetime import datetime 
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException
+from selenium.webdriver.firefox.options import Options
 
 
-def write_json(immowelt_data, filename=""):
-	# write function 
-	if not os.path.exists(filename):
-		with open(filename, "w", encoding="utf-8") as file:
+# options for a webdriver 
+firefox_options = Options()
+# setting a webdriver to a headless mode to make all work faster
+firefox_options.add_argument("--headless")
+user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:101.0) Gecko/20100101 Firefox/101.0"
+firefox_options.add_argument(f"--user-agent={user_agent}")
 
-			json.dump(immowelt_data, file, ensure_ascii=False, indent = 4)
-	else:
-		with open(filename, "r+", encoding="utf-8") as file:
-			json.dump(immowelt_data, file, ensure_ascii=False, indent = 4)
-
-# WIP!!!!!!!!!!!!!
-def write_csv(headers, data, filename=""):
-	if not os.path.exists(filename):
-		with open(filename, "w", encoding="utf-8", newline='') as file:
-			writer = csv.writer(file, delimiter=",")
-			writer.writerow(headers)
-			writer.writerows(data)
-	else:
-		with open(filename, "r+", newline='') as file:
-			writer = csv.writer(file, delimiter=",")
-			writer.writerow(headers)
-			writer.writerows(data)
-			
 
 class ImmoweltSpider():
 	def __init__(self, url):
-		# initialize class and set up a soup and page variables
+		"""initialize class and set up a soup and page variables"""
 		self.url = url
 
 		# creating a webdriver to handle a click function
-		self.driver = webdriver.Firefox()
+		self.driver = webdriver.Firefox(options=firefox_options)
 		self.driver.get(self.url)
 		self.raw_immowelt_data = []
 
@@ -49,7 +31,7 @@ class ImmoweltSpider():
 
 
 	def __restart_func(self):
-		# helping function to click a next page on site and restart function scrape_immowelt
+		"""helping function to click a next page on site and restart function scrape_immowelt"""
 
 		try:
 			btn = self.driver.find_element(By.CLASS_NAME, "css-12uiy26")
@@ -57,11 +39,11 @@ class ImmoweltSpider():
 			time.sleep(3)
 			self.scrape()
 		except NoSuchElementException as elem:
-			print("Scrapping ended.")
+			pass
 
 
 	def scrape(self):
-
+		"""Function that make extraction of all the data"""
 		try:
 			url = requests.get(self.driver.current_url)
 
@@ -73,76 +55,86 @@ class ImmoweltSpider():
 				# lists for data
 				cost = []
 				location = []
-				raw_providers = []
 				providers = []
 				rooms = []
-				metres = []
 				raw_metres = []
+				metres = []
 				action_url = []
 
 				cost.append(action.find("div", class_="css-11nox3k").get("aria-label"))
 				location.append(action.find("div", class_="css-4udngo").get_text())
-				raw_providers.append(action.find("div", class_="css-1wek39n").get_text())
-				for provider in raw_providers:
-					# replacing weird unicode with a white space
-					provider = provider.replace("\u00ad", " ")
-					providers.append(provider)
+				providers.append(action.find("div", class_="css-1wek39n").get_text())
 
 				raw_action_url = action.find("a", class_="css-xt08q3")
 				action_url.append(raw_action_url['href'])
 				description = action.find_all("div", class_="css-9u48bm")
 
 				try:
-					rooms.append(description[0].get_text())
-					raw_metres.append(description[2].get_text())
-					# replacing a unicode square symbol to a just number 2 so json won't see any unicode
+					# checking what data is in description list. if Zimmer in 0 then its room else it's metres 
+					if "Zimmer" in description[0].get_text():
+						rooms.append(description[0].get_text())
+						raw_metres.append(description[2].get_text())
+					else:
+						raw_metres.append(description[0].get_text())
+						rooms.append("None")
+						
+					# changing comma to a unicode nine version comma for good .csv
 					for m in raw_metres:
-						m = m.replace('\u00b2', '2')
-						metres.append(m)
-					# append a data one by one to a raw data list
-					for cost, location, providers, rooms, metres, action_url in zip(cost, location, providers, rooms, metres, action_url):
-						self.raw_immowelt_data.append({'Cost': cost, 'Location' : location, "Provider" : providers, 'Rooms' : rooms, "Metres" : metres, "Url " : action_url})
+						m = m.replace(",","\u201A")
 
-					
+						metres.append(m)
 				except IndexError:
-					# ignoring IndexError error
-					pass
+					print("Lack of some data")
+				# append a data one by one to a raw data list
+				for cost, location, providers, rooms, metres, action_url in zip(cost, location, providers, rooms, metres, action_url):
+					self.raw_immowelt_data.append({'Cost': cost, 'Location' : location, 'Provider' : providers, 'Rooms' : rooms, 'Metres' : metres, 'Url' : action_url})
 		except ElementClickInterceptedException as elem:
 			print(elem)
+		except AttributeError:
+			pass
 		finally:
-			# after end of scrapping first page start function to scrape next one
-			# return raw_immowelt_data
+			# after end of scrapping first page start restart function to scrape next one
 			self.__restart_func()
 		self.driver.quit()
-		write_json(self.raw_immowelt_data, filename="immowelt.json")
-		
-		# WIP!!!!!!!!!!!!!
-		header = ['Cost', 'Location', 'Provider', 'Rooms', 'Metres', 'Url']
 		for value in self.raw_immowelt_data:
 			self.raw_csv_data.append(value.values())
-		write_csv(header, self.raw_csv_data, filename="immowelt_data.csv")
 
-# WIP!!!!!!!!!!!!!
-class AutoScoutSpider():
+		return self.raw_csv_data
 
-	def __init__(self, url):
-		self.url = url
+class DataFrameProcessor():
 
-		self.driver = webdriver.Firefox()
-		self.driver.get(self.url)
+	def __init__(self, raw_data):
+		self.raw_data = raw_data
 
-	
-	def scrape(self):
-		url = requests.get(self.driver.current_url)
-		print(url.status_code)
-		soup = BeautifulSoup(url.text, "lxml")
-		data = soup.find_all("li", class_="result-list__listing ")
-		for i in data:
-			print(i)
+	def make_dataframe(self, filename):
+		"""Convert extracted data into .csv file"""
+		df = pd.DataFrame(self.raw_data)
+		df.columns = ["Cost", "Location", "Provider", "Rooms", "Metres", "Url"]
+		df.to_csv(filename, index=False)
+
+
+def log_progress(message):
+	''' This function logs the mentioned message of a given stage of the code execution to a log file. Function returns nothing'''
+	timestamp_format  = "%Y-%b-%d-%H:%M:%S"#year-month-day-hour:minute:seconds
+	now = datetime.now()
+	timestamp = now.strftime(timestamp_format)
+	print(message)
+	with open("code_log.txt", "a") as file:
+		file.write(f"{timestamp} : {message}\n")
 
 if __name__ == "__main__":
-	immowelt_spider = ImmoweltSpider("https://www.immowelt.de/classified-search?distributionTypes=Rent&estateTypes=House,Apartment&locations=NBH2DE65431,NBH2DE65405,NBH2DE65407,NBH2DE65437")
-	immowelt_spider.scrape()
 
-	# autoscout_spider = AutoScoutSpider("https://www.immobilienscout24.de/Suche/de/hamburg/hamburg/altona/ottensen/wohnung-mieten?pricetype=rentpermonth&enteredFrom=result_list")
-	# autoscout_spider.scrape()
+	# make immowelt spider
+	log_progress("Starting data extraction.")
+	# enter a url with needed options for search 
+	immowelt_spider = ImmoweltSpider("https://www.immowelt.de/classified-search?distributionTypes=Rent&estateTypes=House,Apartment&locations=NBH2DE75688,NBH2DE75641,NBH2DE75631,NBH2DE75638&numberOfRoomsMax=2&priceMax=1500")
+	# start extracting data 
+	raw_data = immowelt_spider.scrape()
+	log_progress("Data extraction complete.")
+
+
+	# create a instance of DataFrameProcessor class
+	dataframe_processor = DataFrameProcessor(raw_data)
+	# enter a location for extracted data in .csv file format
+	dataframe_processor.make_dataframe("E:/Projects/python/scrapping/real_estate_price_analysis/extracted_data.csv")
+	log_progress("Creating DataFrame Object.")

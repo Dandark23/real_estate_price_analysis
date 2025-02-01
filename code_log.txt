@@ -1,0 +1,3 @@
+2025-Feb-01-01:07:40 : Starting data extraction.
+2025-Feb-01-01:07:52 : Data extraction complete.
+2025-Feb-01-01:07:52 : Creating DataFrame Object.
