@@ -11,8 +11,11 @@ Installation:
 Execution:
     1. into variable "immowelt_spider" into class "ImmoweltSpider" push url of Immowelt website with selected by you filters of search.
     (example - City: Berlin; Neighborhood: Adlershof, Karow, Blankenfelde, Gesundbrunnen; Rooms: 2; Cost: Max: 1500$)
+    
     2. execute project in bash\cmd terminal\powershell through "python main.py"
+    
     3. in dataframe_processor.make_dataframe("C:/your/root/to/file/fileName") enter root where to create a .csv file
+    
     4. after program executed get .csv file 
 
 Used technologies:
