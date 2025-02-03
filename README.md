@@ -16,7 +16,7 @@ Execution:
     
     2. execute project in bash\cmd terminal\powershell through "python main.py"
     
-    3. in dataframe_processor.make_dataframe("C:/your/root/to/file/fileName") enter root where to create a .csv file
+    3. in dataframe_processor.make_dataframe("C:/your/root/to/file/fileName.csv") enter root where to create a .csv file
     
     4. after program executed get .csv file 
 
