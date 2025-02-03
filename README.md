@@ -1,7 +1,7 @@
 Real Estate Price Analysis
 
 Description: 
-    Real Estate Price Analysis is project for searching appartaments\houses data on Immowelt website, for a further data working purpouses.
+    Real Estate Price Analysis is project for searching apartments\houses data on Immowelt website, for a further data working purposes.
 
 Installation:
 
