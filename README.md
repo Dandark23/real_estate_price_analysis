@@ -4,9 +4,10 @@ Description:
     Real Estate Price Analysis is project for searching appartaments\houses data on Immowelt website, for a further data working purpouses.
 
 Installation:
-    git clone https://github.com/Dandark23/real_estate_price_analysis
-    cd your-project-name
-    pip install -r requirements.txt
+    On your terminal:
+    1. git clone https://github.com/Dandark23/real_estate_price_analysis
+    2. cd your-project-name
+    3. pip install -r requirements.txt
 
 Execution:
     1. into variable "immowelt_spider" into class "ImmoweltSpider" push url of Immowelt website with selected by you filters of search.
