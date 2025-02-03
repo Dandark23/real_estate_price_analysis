@@ -136,5 +136,5 @@ if __name__ == "__main__":
 	# create a instance of DataFrameProcessor class
 	dataframe_processor = DataFrameProcessor(raw_data)
 	# enter a location for extracted data in .csv file format
-	dataframe_processor.make_dataframe("E:/Projects/python/scrapping/real_estate_price_analysis/extracted_data.csv")
+	dataframe_processor.make_dataframe("C:/your/root/to/file/fileName.csv")
 	log_progress("Creating DataFrame Object.")
